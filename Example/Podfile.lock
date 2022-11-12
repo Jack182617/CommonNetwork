@@ -1,6 +1,6 @@
 PODS:
   - Alamofire (5.6.2)
-  - CommonNetwork (0.2.0):
+  - CommonNetwork (0.5.0):
     - HandyJSON (= 5.0.2)
     - Moya (= 15.0.0)
     - ProgressHUD (= 2.70)
@@ -37,7 +37,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
-  CommonNetwork: 9945863d4915cdd3a96b4a66cebae4bdb3974564
+  CommonNetwork: ff474c238552b2ead2b94442544546ee6064b260
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
