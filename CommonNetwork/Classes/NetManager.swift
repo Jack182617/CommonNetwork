@@ -209,7 +209,7 @@ extension NetWorkManager{
             throw type.path.isEmpty ? PublicNetError.resError(code: 0, data: nil, message: nil) : PublicNetError.custom(msg: "数据出现了小错误，请稍等片刻~")
         }
 
-        guard let code = dict!["code"] as? Int, let message = dict!["message"] as? String, let data = dict!["data"] else {
+        guard let code = dict["code"] as? Int, let message = dict["message"] as? String, let data = dict["data"] else {
             throw PublicNetError.custom(msg: "服务器出了点小错误，请稍等片刻~")
         }
         /// 不转模型
