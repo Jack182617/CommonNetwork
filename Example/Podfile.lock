@@ -1,0 +1,49 @@
+PODS:
+  - Alamofire (5.6.2)
+  - CommonNetwork (0.1.0):
+    - HandyJSON (= 5.0.2)
+    - Moya (= 15.0.0)
+    - ProgressHUD (= 2.70)
+    - Toast-Swift (= 5.0.1)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - HandyJSON (5.0.2)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - ProgressHUD (2.70)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - CommonNetwork (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - FBSnapshotTestCase
+    - HandyJSON
+    - Moya
+    - ProgressHUD
+    - Toast-Swift
+
+EXTERNAL SOURCES:
+  CommonNetwork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  CommonNetwork: 670f73760939621182fb8aa8242d8c7f308e42f8
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  ProgressHUD: e603e8b8622c47d8818b9fb38b3cfe9d3e7ca421
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: f607f10005a0826a23278e7538797bae80d8aac9
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,36 @@
+{
+  "name": "CommonNetwork",
+  "version": "0.1.0",
+  "summary": "A short description of CommonNetwork.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Jack182617/CommonNetwork",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "550936272@qq.com": "550936272@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Jack182617/CommonNetwork.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "CommonNetwork/Classes/**/*",
+  "dependencies": {
+    "Moya": [
+      "15.0.0"
+    ],
+    "HandyJSON": [
+      "5.0.2"
+    ],
+    "ProgressHUD": [
+      "2.70"
+    ],
+    "Toast-Swift": [
+      "5.0.1"
+    ]
+  }
+}
