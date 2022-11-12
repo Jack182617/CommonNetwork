@@ -16,7 +16,11 @@ let windowScene = scenes.first as? UIWindowScene
 let rootWindow = windowScene?.windows.last
 
 public func g_showHUD(_ string: String) {
-    ProgressHUD.show(string, interaction: false)
+    if string.isEmpty{
+        ProgressHUD.show()
+    }else{
+        ProgressHUD.show(string, interaction: false)
+    }
 }
 
 public func g_dismissHUD() {
