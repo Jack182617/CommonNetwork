@@ -205,11 +205,11 @@ extension NetWorkManager{
             返回结果   ===> \(String(data: respond.data, encoding: .utf8) ?? "💔💔respond.data => sting 为空💔💔")
             """)
 #endif
-        guard let dict = try? JSONSerialization.jsonObject(with: respond.data, options: []) as? DefultDict else {
+        guard let dict = try? JSONSerialization.jsonObject(with: respond.data, options: []) as? DefultDict? else {
             throw type.path.isEmpty ? PublicNetError.resError(code: 0, data: nil, message: nil) : PublicNetError.custom(msg: "数据出现了小错误，请稍等片刻~")
         }
 
-        guard let code = dict["code"] as? Int, let message = dict["message"] as? String, let data = dict["data"] else {
+        guard let code = dict!["code"] as? Int, let message = dict!["message"] as? String, let data = dict!["data"] else {
             throw PublicNetError.custom(msg: "服务器出了点小错误，请稍等片刻~")
         }
         /// 不转模型
